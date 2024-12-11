@@ -557,75 +557,7 @@
                             <h6>files</h6>
                         </div>
                         <div class="card-body">
-                            <div class="mb-20">
-                                <div class="files-area d-flex justify-content-between align-items-center">
-                                    <div class="files-area__left d-flex align-items-center">
-                                        <div class="files-area__img">
-                                            <img src="img/zip@2x.png" alt="img" class="wh-42">
-                                        </div>
-                                        <div class="files-area__title">
-                                            <p class="mb-0 fs-14 fw-500 color-dark text-capitalize">
-                                                Main-admin-design.zip</p>
-                                            <span class="color-light fs-12 d-flex ">7.05 MB</span>
-                                            <div class="d-flex text-capitalize">
-                                                <a href="#" class="fs-12 fw-500 color-primary ">download</a>
-                                                <a href="#" class="fs-12 fw-500 color-primary ms-10"></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="files-area__right">
-                                        <div class="dropdown dropleft">
-                                            <button class="btn-link border-0 bg-transparent p-0"
-                                                data-bs-toggle="dropdown" aria-haspopup="true"
-                                                aria-expanded="false">
-                                                <img src="img/svg/more-horizontal.svg" alt="more-horizontal"
-                                                    class="svg">
-                                            </button>
-                                            <div class="dropdown-menu dropdown-menu--dynamic">
-                                                <a class="dropdown-item" href="#">view</a>
-                                                <a class="dropdown-item" href="#">edit</a>
-                                                <a class="dropdown-item" href="#">leave</a>
-                                                <a class="dropdown-item" href="#">delete</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="mb-20">
-                                <div class="files-area d-flex justify-content-between align-items-center">
-                                    <div class="files-area__left d-flex align-items-center">
-                                        <div class="files-area__img">
-                                            <img src="img/pdf@2x.png" alt="img" class="wh-42">
-                                        </div>
-                                        <div class="files-area__title">
-                                            <p class="mb-0 fs-14 fw-500 color-dark text-capitalize">
-                                                Product-guidelines.pdf</p>
-                                            <span class="color-light fs-12 d-flex ">5.07 KB</span>
-                                            <div class="d-flex text-capitalize">
-                                                <a href="#" class="fs-12 fw-500 color-primary ">view</a>
-                                                <a href="#"
-                                                    class="fs-12 fw-500 color-primary ms-10">download</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="files-area__right">
-                                        <div class="dropdown dropleft">
-                                            <button class="btn-link border-0 bg-transparent p-0"
-                                                data-bs-toggle="dropdown" aria-haspopup="true"
-                                                aria-expanded="false">
-                                                <img src="img/svg/more-horizontal.svg" alt="more-horizontal"
-                                                    class="svg">
-                                            </button>
-                                            <div class="dropdown-menu dropdown-menu--dynamic">
-                                                <a class="dropdown-item" href="#">view</a>
-                                                <a class="dropdown-item" href="#">edit</a>
-                                                <a class="dropdown-item" href="#">leave</a>
-                                                <a class="dropdown-item" href="#">delete</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+
                             <div class="mb-20">
                                 <div class="files-area d-flex justify-content-between align-items-center">
                                     <div class="files-area__left d-flex align-items-center">
@@ -731,6 +663,27 @@
                             </div>
                         </div>
                     </div>
+                    <div class="ticket-chat-wrapper pt-25 pb-30 mt-2">
+                        <h4>Upload Files</h4>
+                        <div class="ticket-search-body">
+                            <ul class="ticket-user-list pe-15">
+                                <label for="">Upload File</label>
+                               <input type="file" class="mt-2" id="">
+
+                            </ul>
+                        </div>
+                        {{-- <div class="ticket-search-header mt-5">
+
+                            <button type="button" class="border-0 btn-primary ">
+
+                                Upload New File
+                            </button>
+                        </div> --}}
+
+                    </div>
+
+                </div>
+                <div class="col-lg-4 mb-50">
 
                 </div>
 
@@ -752,26 +705,7 @@
                     </div>
 
             </div>
-            <div class="col-lg-4 mb-50">
-                <div class="ticket-chat-wrapper pt-25 pb-30">
-                    <h4>Upload Files</h4>
-                    <div class="ticket-search-body">
-                        <ul class="ticket-user-list pe-15">
-                            <label for="">Upload File</label>
-                           <input type="file" class="mt-2" id="">
 
-                        </ul>
-                    </div>
-                    {{-- <div class="ticket-search-header mt-5">
-
-                        <button type="button" class="border-0 btn-primary ">
-
-                            Upload New File
-                        </button>
-                    </div> --}}
-
-                </div>
-            </div>
         </div>
 
     </div>
