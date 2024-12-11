@@ -8,10 +8,10 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12">
-               
-                
+
+
                     <!-- ends: .card -->
-                  
+
 
 
                 <div class="breadcrumb-main application-ui mb-30">
@@ -44,11 +44,11 @@
                 </div>
 
                 <div class="card card-default card-md mb-4">
-                     
+
                     <div class="card-body">
                       <div class="dm-steps-wrap">
-    
-    
+
+
                         <div class="dm-steps">
                           <ul class="nav">
                             <li class="dm-steps__item finished">
@@ -95,12 +95,12 @@
                                   <span class="dm-steps__text">Waiting</span>
                                 </div>
                               </li>
-                           
+
 
                           </ul>
                         </div>
-    
-    
+
+
                       </div>
                     </div>
                   </div>
@@ -319,7 +319,7 @@
                         <div class="tab-content w-100" id="projectContent">
                             <ChatComponent/>
 
-                            {{-- <div class="tab-pane fade show active" id="project-timeline" role="tabpanel"
+                         <div class="tab-pane fade show active" id="project-timeline" role="tabpanel"
                                 aria-labelledby="project-timeline-tab">
                                 <div class="card-body px-0 mx-25 border-bottom">
                                     <div class="task-activities d-flex align-items-center">
@@ -545,7 +545,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div> --}}
+                            </div>
                         </div>
                     </div>
 
@@ -737,7 +737,7 @@
                 <div class="col-lg-12 mb-50">
                     <div class="ticket-chat-wrapper pt-25 pb-30">
                     <h4>Log</h4>
-               
+
                     <div class="ticket-search-header">
                     <form action="/" class="d-flex align-items-center">
                     <img class="svg" src="img/svg/smile.svg" alt="smile">
@@ -751,6 +751,26 @@
                     </div>
                     </div>
 
+            </div>
+            <div class="col-lg-4 mb-50">
+                <div class="ticket-chat-wrapper pt-25 pb-30">
+                    <h4>Upload Files</h4>
+                    <div class="ticket-search-body">
+                        <ul class="ticket-user-list pe-15">
+                            <label for="">Upload File</label>
+                           <input type="file" class="mt-2" id="">
+
+                        </ul>
+                    </div>
+                    {{-- <div class="ticket-search-header mt-5">
+
+                        <button type="button" class="border-0 btn-primary ">
+
+                            Upload New File
+                        </button>
+                    </div> --}}
+
+                </div>
             </div>
         </div>
 
