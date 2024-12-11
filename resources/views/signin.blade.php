@@ -8,14 +8,14 @@
                     <div class="edit-profile">
                         <div class="edit-profile__logos">
                             <a href="index.html">
-                                <img class="dark" src="img/logo-dark.png" alt>
-                                <img class="light" src="img/logo-white.png" alt>
+                                <img class="dark" src="img/logo-dark.jpg" alt>
+                                <img class="light" src="img/logo-white.jpg" alt>
                             </a>
                         </div>
                         <div class="card border-0">
                             <div class="card-header">
                                 <div class="edit-profile__title">
-                                    <h6>Sign in HexaDash</h6>
+                                    <h6>Sign in Metro Textiles</h6>
                                 </div>
                             </div>
                             <div class="card-body">
