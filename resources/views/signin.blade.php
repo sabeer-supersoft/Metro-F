@@ -20,7 +20,7 @@
                             </div>
                             <div class="card-body">
                                 <div class="edit-profile__body">
-                                    <form action="{{ url('/') }}" method="POST">
+                                    <form action="{{ url('/userindex') }}" method="GET">
                                         @csrf
                                         <div class="form-group mb-25">
                                             <label for="username">Username or Email Address</label>
