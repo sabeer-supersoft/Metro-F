@@ -237,6 +237,26 @@
 
                     </div>
                 </div>
+                <div class="col-lg-4 mb-50">
+                    <div class="ticket-chat-wrapper pt-25 pb-30">
+                        <h4>Upload Files</h4>
+                        <div class="ticket-search-body">
+                            <ul class="ticket-user-list pe-15">
+                                <label for="">Upload File</label>
+                               <input type="file" class="mt-2" id="">
+
+                            </ul>
+                        </div>
+                        <div class="ticket-search-header mt-5">
+
+                            <button type="button" class="border-0 btn-primary ">
+
+                                Upload New File
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
             </div>
 
         </div>

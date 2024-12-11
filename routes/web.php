@@ -1,14 +1,16 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AuthController;
 use App\Http\Controllers\HomeController;
-use App\Http\Controllers\UserController;
-use App\Http\Controllers\CaseController;
-use App\Http\Controllers\UserHomeController;
 
+// Root route (GET for the login page and POST for form submission)
 Route::get('/', function () {
-    return view('index');
+    return view('signin'); // Replace 'signin' with your login Blade view name
 });
+Route::post('/', [AuthController::class, 'signin']);
+
+// Other static views
 Route::get('/adduser', function () {
     return view('add-user');
 });
@@ -21,10 +23,15 @@ Route::get('/cases', function () {
 Route::get('/caseview', function () {
     return view('caseview');
 });
-
 Route::get('/userindex', function () {
     return view('userindex');
 });
 Route::get('/usercaseview', function () {
     return view('usercaseview');
 });
+
+// Authentication routes (optional, if needed for other parts)
+Auth::routes();
+
+// Home route
+Route::get('/home', [HomeController::class, 'index'])->name('home');

@@ -8,6 +8,12 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12">
+               
+                
+                    <!-- ends: .card -->
+                  
+
+
                 <div class="breadcrumb-main application-ui mb-30">
                     <div class="breadcrumb-action d-flex">
                         <div class="d-flex align-items-center user-member__title me-sm-25 me-0">
@@ -36,6 +42,70 @@
                             <img class="svg" src="img/svg/trash-2.svg" alt="trash-2">remove</button>
                     </div>
                 </div>
+
+                <div class="card card-default card-md mb-4">
+                     
+                    <div class="card-body">
+                      <div class="dm-steps-wrap">
+    
+    
+                        <div class="dm-steps">
+                          <ul class="nav">
+                            <li class="dm-steps__item finished">
+                              <div class="dm-steps__line"></div>
+                              <div class="dm-steps__content">
+                                <span class="dm-steps__icon"><i class="la la-check"></i></span>
+                                <span class="dm-steps__text">Finished</span>
+                              </div>
+                            </li>
+                            <li class="dm-steps__item finished">
+                              <div class="dm-steps__line"></div>
+                              <div class="dm-steps__content">
+                                <span class="dm-steps__icon"><span class="dm-steps__count">2</span></span>
+                                <span class="dm-steps__text">In Progress</span>
+                              </div>
+                            </li>
+                            <li class="dm-steps__item finished">
+                              <div class="dm-steps__content">
+                                <span class="dm-steps__icon"><span class="dm-steps__count">3</span></span>
+                                <span class="dm-steps__text">pending</span>
+                              </div>
+                            </li>
+                            <li class="dm-steps__item active">
+                                <div class="dm-steps__content">
+                                  <span class="dm-steps__icon"><span class="dm-steps__count">3</span></span>
+                                  <span class="dm-steps__text">Waiting</span>
+                                </div>
+                              </li>
+                              <li class="dm-steps__item">
+                                <div class="dm-steps__content">
+                                  <span class="dm-steps__icon"><span class="dm-steps__count">3</span></span>
+                                  <span class="dm-steps__text">Waiting</span>
+                                </div>
+                              </li>
+                              <li class="dm-steps__item">
+                                <div class="dm-steps__content">
+                                  <span class="dm-steps__icon"><span class="dm-steps__count">3</span></span>
+                                  <span class="dm-steps__text">Waiting</span>
+                                </div>
+                              </li>
+                              <li class="dm-steps__item">
+                                <div class="dm-steps__content">
+                                  <span class="dm-steps__icon"><span class="dm-steps__count">3</span></span>
+                                  <span class="dm-steps__text">Waiting</span>
+                                </div>
+                              </li>
+                           
+
+                          </ul>
+                        </div>
+    
+    
+                      </div>
+                    </div>
+                  </div>
+
+
             </div>
         </div>
         <div class="modal fade noteModal" id="noteModal" tabindex="-1" aria-hidden="true">
@@ -185,7 +255,7 @@
 
                 </div>
 
-                <div class="col-xxl-3 col-lg-6 col-12 mb-25 order-xxl-0 order-lg-1">
+                {{-- <div class="col-xxl-3 col-lg-6 col-12 mb-25 order-xxl-0 order-lg-1">
                     <div class="card h-100">
                         <div
                             class="card-header d-flex justify-content-between align-items-center py-10  px-sm-25 px-3">
@@ -233,9 +303,9 @@
                         </div>
                     </div>
 
-                </div>
+                </div> --}}
 
-                <div class="col-xxl-8  mb-25">
+                <div class="col-xxl-8 col-md-8  mb-25">
                     <div class="card">
                         <div class="card-header p-0">
                             <ul class="nav px-25 ap-tab-main app-ui-tab" id="project-ap-tab" role="tablist">
@@ -247,8 +317,9 @@
                             </ul>
                         </div>
                         <div class="tab-content w-100" id="projectContent">
+                            <ChatComponent/>
 
-                            <div class="tab-pane fade show active" id="project-timeline" role="tabpanel"
+                            {{-- <div class="tab-pane fade show active" id="project-timeline" role="tabpanel"
                                 aria-labelledby="project-timeline-tab">
                                 <div class="card-body px-0 mx-25 border-bottom">
                                     <div class="task-activities d-flex align-items-center">
@@ -474,13 +545,13 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
 
                 </div>
 
-                <div class="col-xxl-4 col-lg-6 order-xxl-0 order-lg-1">
+                <div class="col-xxl-4 col-lg-4 col-md-4 order-lg-0 order-md-1">
                     <div class="card pb-10 border-0">
                         <div class="card-header py-20  px-sm-25 px-3 ">
                             <h6>files</h6>
@@ -665,83 +736,8 @@
 
                 <div class="col-lg-12 mb-50">
                     <div class="ticket-chat-wrapper pt-25 pb-30">
-                    <h4>Conversation</h4>
-                    <div class="ticket-search-body">
-                    <ul class="ticket-user-list pe-15">
-                    <li class="ticket-user-list-item">
-                    <div class="ticket-user-list-item__wrapper">
-                    <div class="avatar avatar-circle ms-0">
-                    <img src="img/ellipse11.png" class="rounded-circle  d-flex bg-opacity-primary" alt="image">
-                    </div>
-                    <div class="ticket-users-list-body">
-                    <div class="ticket-users-list-body-title">
-                    <h6>Kellie Marquot</h6>
-                    <div class="text-limit" data-maxlength="10">
-                    <p class="mb-0">There are have a many variations of passages.</p>
-                    </div>
-                    </div>
-                    <div class="last-chat-time unread">
-                    <small>1 hour ago</small>
-                    </div>
-                    </div>
-                    </div>
-                    </li>
-                    <li class="ticket-user-list-item">
-                    <div class="ticket-user-list-item__wrapper">
-                    <div class="avatar avatar-circle ms-0">
-                    <img src="img/ellipse2.png" class="rounded-circle  d-flex bg-opacity-primary" alt="image">
-                    </div>
-                    <div class="ticket-users-list-body">
-                    <div class="ticket-users-list-body-title">
-                    <h6>Daniel Pink</h6>
-                    <div class="text-limit" data-maxlength="10">
-                    <p class="mb-0">There are have a many.</p>
-                    </div>
-                    </div>
-                    <div class="last-chat-time unread">
-                    <small>7 hour ago</small>
-                    </div>
-                    </div>
-                    </div>
-                    </li>
-                    <li class="ticket-user-list-item">
-                    <div class="ticket-user-list-item__wrapper">
-                    <div class="avatar avatar-circle ms-0">
-                    <img src="img/ellipse3.png" class="rounded-circle  d-flex bg-opacity-primary" alt="image">
-                    </div>
-                    <div class="ticket-users-list-body">
-                    <div class="ticket-users-list-body-title">
-                    <h6>Kellie Marquot</h6>
-                    <div class="text-limit" data-maxlength="10">
-                    <p class="mb-0">All the Lorem Ipsum generators on the Internet tend There are have a many variations of passages.</p>
-                    </div>
-                    </div>
-                    <div class="last-chat-time unread">
-                    <small>1 hour ago</small>
-                    </div>
-                    </div>
-                    </div>
-                    </li>
-                    <li class="ticket-user-list-item">
-                    <div class="ticket-user-list-item__wrapper">
-                    <div class="avatar avatar-circle ms-0">
-                    <img src="img/ellipse1.png" class="rounded-circle  d-flex bg-opacity-primary" alt="image">
-                    </div>
-                    <div class="ticket-users-list-body">
-                    <div class="ticket-users-list-body-title">
-                    <h6>Meyri Carles</h6>
-                    <div class="text-limit" data-maxlength="10">
-                    <p class="mb-0"><span>Lorem ipsum dolor us was they amet</span>...</p>
-                    </div>
-                    </div>
-                    <div class="last-chat-time unread">
-                    <small>1 hour ago</small>
-                    </div>
-                    </div>
-                    </div>
-                    </li>
-                    </ul>
-                    </div>
+                    <h4>Log</h4>
+               
                     <div class="ticket-search-header">
                     <form action="/" class="d-flex align-items-center">
                     <img class="svg" src="img/svg/smile.svg" alt="smile">

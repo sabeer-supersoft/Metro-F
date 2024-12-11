@@ -184,30 +184,47 @@
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" id="timeline-tab" data-bs-toggle="pill" href="#timeline"
-                                        role="tab" aria-selected="false">in progress</a>
+                                        role="tab" aria-selected="false">New</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" id="activity-tab" data-bs-toggle="pill" href="#activity"
-                                        role="tab" aria-selected="false">completed</a>
+                                        role="tab" aria-selected="false">Customer Awaited</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" id="late-tab" data-bs-toggle="pill" href="#late"
-                                        role="tab" aria-selected="false">late</a>
+                                        role="tab" aria-selected="false">Mgt Awaited</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" id="early-tab" data-bs-toggle="pill" href="#early"
-                                        role="tab" aria-selected="false">early</a>
+                                        role="tab" aria-selected="false">In Process</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="early-tab" data-bs-toggle="pill" href="#early"
+                                        role="tab" aria-selected="false">Proof Approval</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="early-tab" data-bs-toggle="pill" href="#early"
+                                        role="tab" aria-selected="false">Paid </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="early-tab" data-bs-toggle="pill" href="#early"
+                                        role="tab" aria-selected="false">In  Production</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="early-tab" data-bs-toggle="pill" href="#early"
+                                        role="tab" aria-selected="false">Shipped  </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="early-tab" data-bs-toggle="pill" href="#early"
+                                        role="tab" aria-selected="false">Deleverd  </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="early-tab" data-bs-toggle="pill" href="#early"
+                                        role="tab" aria-selected="false">Paid </a>
                                 </li>
                             </ul>
                         </div>
-                        <div
-                            class="project-search project-search--height global-shadow ms-md-20 my-10 order-md-2 order-1">
-                            <form action="/" class="d-flex align-items-center user-member__form">
-                                <img src="img/svg/search.svg" alt="search" class="svg">
-                                <input class="form-control me-sm-2 border-0 box-shadow-none" type="search"
-                                    placeholder="Search by Name" aria-label="Search">
-                            </form>
-                        </div>
+
                     </div>
                     <div class="project-top-right d-flex flex-wrap">
                         <div class="project-category">
@@ -223,18 +240,14 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="project-icon-selected">
-                            <div class="listing-social-link pb-lg-0 pb-xs-2">
-                                <div class="icon-list-social d-flex">
-                                    <a class="icon-list-social__link rounded-circle icon-list-social__style justify-content-center ms-xl-20 me-20  active"
-                                        href="#">
-                                        <img class="svg" src="img/svg/grid.svg" alt="grid"></a>
-                                    <a class="icon-list-social__link rounded-circle icon-list-social__style justify-content-center "
-                                        href="project-table.html">
-                                        <img class="svg" src="img/svg/list.svg" alt="list"></a>
-                                </div>
-                            </div>
-                        </div>
+                        <div
+                        class="project-search project-search--height global-shadow ms-md-20 my-10 order-md-2 order-1">
+                        <form action="/" class="d-flex align-items-center user-member__form">
+                            <img src="img/svg/search.svg" alt="search" class="svg">
+                            <input class="form-control me-sm-2 border-0 box-shadow-none" type="search"
+                                placeholder="Search by Name" aria-label="Search">
+                        </form>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -304,43 +317,7 @@
                                         <p class="color-light fs-12 mb-20">12 / 15 tasks completed</p>
                                     </div>
                                 </div>
-                                <div class="mt-20 px-30">
-                                    <p class="fs-13 color-light mb-10">Assigned To</p>
-                                    <ul class="d-flex flex-wrap user-group-people__parent">
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm3.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm4.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm5.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm6.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                    </ul>
-                                </div>
+
                             </div>
                         </div>
                         <div class="col-xl-4 mb-25 col-md-6">
@@ -403,43 +380,7 @@
                                         <p class="color-light fs-12 mb-20">12 / 15 tasks completed</p>
                                     </div>
                                 </div>
-                                <div class="mt-20 px-30">
-                                    <p class="fs-13 color-light mb-10">Assigned To</p>
-                                    <ul class="d-flex flex-wrap user-group-people__parent">
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm3.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm4.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm5.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm6.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                    </ul>
-                                </div>
+
                             </div>
                         </div>
                         <div class="col-xl-4 mb-25 col-md-6">
@@ -454,7 +395,7 @@
                                                     Custom Software Development</h6>
                                             </a>
                                             <span
-                                                class="my-sm-0 my-2 media-badge text-uppercase color-white bg-danger">late</span>
+                                                class="my-sm-0 my-2 media-badge text-uppercase color-white bg-danger"> Mgt Awaited</span>
                                         </div>
                                         <div class="mt-n15">
                                             <div class="dropdown dropleft">
@@ -501,43 +442,7 @@
                                         <p class="color-light fs-12 mb-20">12 / 15 tasks completed</p>
                                     </div>
                                 </div>
-                                <div class="mt-20 px-30">
-                                    <p class="fs-13 color-light mb-10">Assigned To</p>
-                                    <ul class="d-flex flex-wrap user-group-people__parent">
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm3.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm4.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm5.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm6.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                    </ul>
-                                </div>
+
                             </div>
                         </div>
                         <div class="col-xl-4 mb-25 col-md-6">
@@ -550,7 +455,7 @@
                                                 </h6>
                                             </a>
                                             <span
-                                                class="media-badge text-uppercase color-white bg-success">completed</span>
+                                                class="media-badge text-uppercase color-white bg-success">CUSTOMERS AWAITED</span>
                                         </div>
                                         <div class="mt-n15">
                                             <div class="dropdown dropleft">
@@ -589,8 +494,8 @@
                                         <div class="progress-wrap d-flex align-items-center mb-0">
                                             <div class="progress">
                                                 <div class="progress-bar bg-success" role="progressbar"
-                                                    style="width: 100%;" aria-valuenow="100" aria-valuemin="0"
-                                                    aria-valuemax="100"></div>
+                                                    style="width: 100%;" aria-valuenow="25" aria-valuemin="0"
+                                                    aria-valuemax="20"></div>
                                             </div>
                                             <span class="progress-icon"><img src="img/svg/check.svg" alt="check"
                                                     class="svg color-success"></span>
@@ -598,43 +503,7 @@
                                         <p class="color-light fs-12 mb-20">12 / 15 tasks completed</p>
                                     </div>
                                 </div>
-                                <div class="mt-20 px-30">
-                                    <p class="fs-13 color-light mb-10">Assigned To</p>
-                                    <ul class="d-flex flex-wrap user-group-people__parent">
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm3.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm4.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm5.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm6.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                    </ul>
-                                </div>
+
                             </div>
                         </div>
                         <div class="col-xl-4 mb-25 col-md-6">
@@ -696,43 +565,7 @@
                                         <p class="color-light fs-12 mb-20">12 / 15 tasks completed</p>
                                     </div>
                                 </div>
-                                <div class="mt-20 px-30">
-                                    <p class="fs-13 color-light mb-10">Assigned To</p>
-                                    <ul class="d-flex flex-wrap user-group-people__parent">
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm3.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm4.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm5.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm6.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                    </ul>
-                                </div>
+
                             </div>
                         </div>
                         <div class="col-xl-4 mb-25 col-md-6">
@@ -795,43 +628,7 @@
                                         <p class="color-light fs-12 mb-20">12 / 15 tasks completed</p>
                                     </div>
                                 </div>
-                                <div class="mt-20 px-30">
-                                    <p class="fs-13 color-light mb-10">Assigned To</p>
-                                    <ul class="d-flex flex-wrap user-group-people__parent">
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm3.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm4.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm5.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm6.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                    </ul>
-                                </div>
+
                             </div>
                         </div>
                         <div class="col-xl-4 mb-25 col-md-6">
@@ -846,7 +643,7 @@
                                                     Custom Software Development</h6>
                                             </a>
                                             <span
-                                                class="my-sm-0 my-2 media-badge text-uppercase color-white bg-danger">late</span>
+                                                class="my-sm-0 my-2 media-badge text-uppercase color-white bg-danger"> Mgt Awaited</span>
                                         </div>
                                         <div class="mt-n15">
                                             <div class="dropdown dropleft">
@@ -893,43 +690,7 @@
                                         <p class="color-light fs-12 mb-20">12 / 15 tasks completed</p>
                                     </div>
                                 </div>
-                                <div class="mt-20 px-30">
-                                    <p class="fs-13 color-light mb-10">Assigned To</p>
-                                    <ul class="d-flex flex-wrap user-group-people__parent">
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm3.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm4.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm5.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm6.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                    </ul>
-                                </div>
+
                             </div>
                         </div>
                         <div class="col-xl-4 mb-25 col-md-6">
@@ -991,43 +752,7 @@
                                         <p class="color-light fs-12 mb-20">12 / 15 tasks completed</p>
                                     </div>
                                 </div>
-                                <div class="mt-20 px-30">
-                                    <p class="fs-13 color-light mb-10">Assigned To</p>
-                                    <ul class="d-flex flex-wrap user-group-people__parent">
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm3.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm4.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm5.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm6.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                    </ul>
-                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -1131,43 +856,7 @@
                                         <p class="color-light fs-12 mb-20">12 / 15 tasks completed</p>
                                     </div>
                                 </div>
-                                <div class="mt-20 px-30">
-                                    <p class="fs-13 color-light mb-10">Assigned To</p>
-                                    <ul class="d-flex flex-wrap user-group-people__parent">
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm3.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm4.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm5.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm6.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                    </ul>
-                                </div>
+
                             </div>
                         </div>
                         <div class="col-xl-4 mb-25 col-md-6">
@@ -1230,43 +919,7 @@
                                         <p class="color-light fs-12 mb-20">12 / 15 tasks completed</p>
                                     </div>
                                 </div>
-                                <div class="mt-20 px-30">
-                                    <p class="fs-13 color-light mb-10">Assigned To</p>
-                                    <ul class="d-flex flex-wrap user-group-people__parent">
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm3.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm4.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm5.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm6.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                    </ul>
-                                </div>
+
                             </div>
                         </div>
                         <div class="col-xl-4 mb-25 col-md-6">
@@ -1329,43 +982,7 @@
                                         <p class="color-light fs-12 mb-20">12 / 15 tasks completed</p>
                                     </div>
                                 </div>
-                                <div class="mt-20 px-30">
-                                    <p class="fs-13 color-light mb-10">Assigned To</p>
-                                    <ul class="d-flex flex-wrap user-group-people__parent">
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm3.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm4.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm5.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm6.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                    </ul>
-                                </div>
+
                             </div>
                         </div>
                         <div class="col-xl-4 mb-25 col-md-6">
@@ -1428,43 +1045,7 @@
                                         <p class="color-light fs-12 mb-20">12 / 15 tasks completed</p>
                                     </div>
                                 </div>
-                                <div class="mt-20 px-30">
-                                    <p class="fs-13 color-light mb-10">Assigned To</p>
-                                    <ul class="d-flex flex-wrap user-group-people__parent">
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm3.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm4.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm5.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm6.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                    </ul>
-                                </div>
+
                             </div>
                         </div>
                         <div class="col-xl-4 mb-25 col-md-6">
@@ -1527,43 +1108,7 @@
                                         <p class="color-light fs-12 mb-20">12 / 15 tasks completed</p>
                                     </div>
                                 </div>
-                                <div class="mt-20 px-30">
-                                    <p class="fs-13 color-light mb-10">Assigned To</p>
-                                    <ul class="d-flex flex-wrap user-group-people__parent">
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm3.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm4.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm5.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm6.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                    </ul>
-                                </div>
+
                             </div>
                         </div>
                         <div class="col-xl-4 mb-25 col-md-6">
@@ -1626,43 +1171,7 @@
                                         <p class="color-light fs-12 mb-20">12 / 15 tasks completed</p>
                                     </div>
                                 </div>
-                                <div class="mt-20 px-30">
-                                    <p class="fs-13 color-light mb-10">Assigned To</p>
-                                    <ul class="d-flex flex-wrap user-group-people__parent">
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm3.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm4.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm5.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm6.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                    </ul>
-                                </div>
+
                             </div>
                         </div>
                         <div class="col-xl-4 mb-25 col-md-6">
@@ -1725,43 +1234,7 @@
                                         <p class="color-light fs-12 mb-20">12 / 15 tasks completed</p>
                                     </div>
                                 </div>
-                                <div class="mt-20 px-30">
-                                    <p class="fs-13 color-light mb-10">Assigned To</p>
-                                    <ul class="d-flex flex-wrap user-group-people__parent">
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm3.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm4.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm5.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm6.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                    </ul>
-                                </div>
+
                             </div>
                         </div>
                         <div class="col-xl-4 mb-25 col-md-6">
@@ -1824,43 +1297,7 @@
                                         <p class="color-light fs-12 mb-20">12 / 15 tasks completed</p>
                                     </div>
                                 </div>
-                                <div class="mt-20 px-30">
-                                    <p class="fs-13 color-light mb-10">Assigned To</p>
-                                    <ul class="d-flex flex-wrap user-group-people__parent">
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm3.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm4.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm5.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm6.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                    </ul>
-                                </div>
+
                             </div>
                         </div>
                         <div class="col-xl-4 mb-25 col-md-6">
@@ -1923,43 +1360,7 @@
                                         <p class="color-light fs-12 mb-20">12 / 15 tasks completed</p>
                                     </div>
                                 </div>
-                                <div class="mt-20 px-30">
-                                    <p class="fs-13 color-light mb-10">Assigned To</p>
-                                    <ul class="d-flex flex-wrap user-group-people__parent">
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm3.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm4.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm5.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm6.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                    </ul>
-                                </div>
+
                             </div>
                         </div>
                         <div class="col-xl-4 mb-25 col-md-6">
@@ -2022,43 +1423,7 @@
                                         <p class="color-light fs-12 mb-20">12 / 15 tasks completed</p>
                                     </div>
                                 </div>
-                                <div class="mt-20 px-30">
-                                    <p class="fs-13 color-light mb-10">Assigned To</p>
-                                    <ul class="d-flex flex-wrap user-group-people__parent">
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm3.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm4.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm5.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm6.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                    </ul>
-                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -2111,7 +1476,7 @@
                                                 <h6 class="mt-0 fw-500 media-ui__title">Dashboard UI</h6>
                                             </a>
                                             <span
-                                                class="media-badge text-uppercase color-white bg-success">completed</span>
+                                                class="media-badge text-uppercase color-white bg-success">CUSTOMERS AWAITED</span>
                                         </div>
                                         <div class="mt-n15">
                                             <div class="dropdown dropleft">
@@ -2150,52 +1515,16 @@
                                         <div class="progress-wrap d-flex align-items-center mb-0">
                                             <div class="progress">
                                                 <div class="progress-bar bg-success" role="progressbar"
-                                                    style="width: 100%;" aria-valuenow="100" aria-valuemin="0"
+                                                    style="width: 100%;" aria-valuenow="25" aria-valuemin="0"
                                                     aria-valuemax="100"></div>
                                             </div>
                                             <span class="progress-icon"><img src="img/svg/check.svg" alt="check"
                                                     class="svg color-success"></span>
                                         </div>
-                                        <p class="color-light fs-12 mb-20">12 / 15 tasks completed</p>
+                                        <p class="color-light fs-12 mb-20">2 / 15 tasks completed</p>
                                     </div>
                                 </div>
-                                <div class="mt-20 px-30">
-                                    <p class="fs-13 color-light mb-10">Assigned To</p>
-                                    <ul class="d-flex flex-wrap user-group-people__parent">
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm3.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm4.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm5.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm6.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                    </ul>
-                                </div>
+
                             </div>
                         </div>
                         <div class="col-xl-4 mb-25 col-md-6">
@@ -2207,7 +1536,7 @@
                                                 <h6 class="mt-0 fw-500 media-ui__title">Dashboard UI</h6>
                                             </a>
                                             <span
-                                                class="media-badge text-uppercase color-white bg-success">completed</span>
+                                                class="media-badge text-uppercase color-white bg-success">CUSTOMERS AWAITED</span>
                                         </div>
                                         <div class="mt-n15">
                                             <div class="dropdown dropleft">
@@ -2255,43 +1584,7 @@
                                         <p class="color-light fs-12 mb-20">12 / 15 tasks completed</p>
                                     </div>
                                 </div>
-                                <div class="mt-20 px-30">
-                                    <p class="fs-13 color-light mb-10">Assigned To</p>
-                                    <ul class="d-flex flex-wrap user-group-people__parent">
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm3.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm4.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm5.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm6.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                    </ul>
-                                </div>
+
                             </div>
                         </div>
                         <div class="col-xl-4 mb-25 col-md-6">
@@ -2303,7 +1596,7 @@
                                                 <h6 class="mt-0 fw-500 media-ui__title">Dashboard UI</h6>
                                             </a>
                                             <span
-                                                class="media-badge text-uppercase color-white bg-success">completed</span>
+                                                class="media-badge text-uppercase color-white bg-success">CUSTOMERS AWAITED</span>
                                         </div>
                                         <div class="mt-n15">
                                             <div class="dropdown dropleft">
@@ -2342,7 +1635,7 @@
                                         <div class="progress-wrap d-flex align-items-center mb-0">
                                             <div class="progress">
                                                 <div class="progress-bar bg-success" role="progressbar"
-                                                    style="width: 100%;" aria-valuenow="100" aria-valuemin="0"
+                                                    style="width: 100%;" aria-valuenow="56" aria-valuemin="0"
                                                     aria-valuemax="100"></div>
                                             </div>
                                             <span class="progress-icon"><img src="img/svg/check.svg" alt="check"
@@ -2351,43 +1644,7 @@
                                         <p class="color-light fs-12 mb-20">12 / 15 tasks completed</p>
                                     </div>
                                 </div>
-                                <div class="mt-20 px-30">
-                                    <p class="fs-13 color-light mb-10">Assigned To</p>
-                                    <ul class="d-flex flex-wrap user-group-people__parent">
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm3.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm4.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm5.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm6.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                    </ul>
-                                </div>
+
                             </div>
                         </div>
                         <div class="col-xl-4 mb-25 col-md-6">
@@ -2399,7 +1656,7 @@
                                                 <h6 class="mt-0 fw-500 media-ui__title">Dashboard UI</h6>
                                             </a>
                                             <span
-                                                class="media-badge text-uppercase color-white bg-success">completed</span>
+                                                class="media-badge text-uppercase color-white bg-success">CUSTOMERS AWAITED</span>
                                         </div>
                                         <div class="mt-n15">
                                             <div class="dropdown dropleft">
@@ -2438,7 +1695,7 @@
                                         <div class="progress-wrap d-flex align-items-center mb-0">
                                             <div class="progress">
                                                 <div class="progress-bar bg-success" role="progressbar"
-                                                    style="width: 100%;" aria-valuenow="100" aria-valuemin="0"
+                                                    style="width: 100%;" aria-valuenow="24" aria-valuemin="0"
                                                     aria-valuemax="100"></div>
                                             </div>
                                             <span class="progress-icon"><img src="img/svg/check.svg" alt="check"
@@ -2447,43 +1704,7 @@
                                         <p class="color-light fs-12 mb-20">12 / 15 tasks completed</p>
                                     </div>
                                 </div>
-                                <div class="mt-20 px-30">
-                                    <p class="fs-13 color-light mb-10">Assigned To</p>
-                                    <ul class="d-flex flex-wrap user-group-people__parent">
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm3.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm4.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm5.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm6.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                    </ul>
-                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -2539,7 +1760,7 @@
                                                     Dashboard UI</h6>
                                             </a>
                                             <span
-                                                class="my-sm-0 my-2 media-badge text-uppercase color-white bg-danger">late</span>
+                                                class="my-sm-0 my-2 media-badge text-uppercase color-white bg-danger"> Mgt Awaited</span>
                                         </div>
                                         <div class="mt-n15">
                                             <div class="dropdown dropleft">
@@ -2586,43 +1807,7 @@
                                         <p class="color-light fs-12 mb-20">12 / 15 tasks completed</p>
                                     </div>
                                 </div>
-                                <div class="mt-20 px-30">
-                                    <p class="fs-13 color-light mb-10">Assigned To</p>
-                                    <ul class="d-flex flex-wrap user-group-people__parent">
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm3.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm4.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm5.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm6.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                    </ul>
-                                </div>
+
                             </div>
                         </div>
                         <div class="col-xl-4 mb-25 col-md-6">
@@ -2637,7 +1822,7 @@
                                                     Dashboard UI</h6>
                                             </a>
                                             <span
-                                                class="my-sm-0 my-2 media-badge text-uppercase color-white bg-danger">late</span>
+                                                class="my-sm-0 my-2 media-badge text-uppercase color-white bg-danger"> Mgt Awaited</span>
                                         </div>
                                         <div class="mt-n15">
                                             <div class="dropdown dropleft">
@@ -2684,43 +1869,7 @@
                                         <p class="color-light fs-12 mb-20">12 / 15 tasks completed</p>
                                     </div>
                                 </div>
-                                <div class="mt-20 px-30">
-                                    <p class="fs-13 color-light mb-10">Assigned To</p>
-                                    <ul class="d-flex flex-wrap user-group-people__parent">
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm3.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm4.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm5.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm6.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                    </ul>
-                                </div>
+
                             </div>
                         </div>
                         <div class="col-xl-4 mb-25 col-md-6">
@@ -2735,7 +1884,7 @@
                                                     Dashboard UI</h6>
                                             </a>
                                             <span
-                                                class="my-sm-0 my-2 media-badge text-uppercase color-white bg-danger">late</span>
+                                                class="my-sm-0 my-2 media-badge text-uppercase color-white bg-danger"> Mgt Awaited</span>
                                         </div>
                                         <div class="mt-n15">
                                             <div class="dropdown dropleft">
@@ -2782,43 +1931,7 @@
                                         <p class="color-light fs-12 mb-20">12 / 15 tasks completed</p>
                                     </div>
                                 </div>
-                                <div class="mt-20 px-30">
-                                    <p class="fs-13 color-light mb-10">Assigned To</p>
-                                    <ul class="d-flex flex-wrap user-group-people__parent">
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm3.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm4.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm5.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm6.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                    </ul>
-                                </div>
+
                             </div>
                         </div>
                         <div class="col-xl-4 mb-25 col-md-6">
@@ -2833,7 +1946,7 @@
                                                     Dashboard UI</h6>
                                             </a>
                                             <span
-                                                class="my-sm-0 my-2 media-badge text-uppercase color-white bg-danger">late</span>
+                                                class="my-sm-0 my-2 media-badge text-uppercase color-white bg-danger"> Mgt Awaited</span>
                                         </div>
                                         <div class="mt-n15">
                                             <div class="dropdown dropleft">
@@ -2880,43 +1993,7 @@
                                         <p class="color-light fs-12 mb-20">12 / 15 tasks completed</p>
                                     </div>
                                 </div>
-                                <div class="mt-20 px-30">
-                                    <p class="fs-13 color-light mb-10">Assigned To</p>
-                                    <ul class="d-flex flex-wrap user-group-people__parent">
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm3.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm4.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm5.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm6.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                    </ul>
-                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -3019,43 +2096,7 @@
                                         <p class="color-light fs-12 mb-20">12 / 15 tasks completed</p>
                                     </div>
                                 </div>
-                                <div class="mt-20 px-30">
-                                    <p class="fs-13 color-light mb-10">Assigned To</p>
-                                    <ul class="d-flex flex-wrap user-group-people__parent">
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm3.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm4.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm5.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm6.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                    </ul>
-                                </div>
+
                             </div>
                         </div>
                         <div class="col-xl-4 mb-25 col-md-6">
@@ -3117,43 +2158,7 @@
                                         <p class="color-light fs-12 mb-20">12 / 15 tasks completed</p>
                                     </div>
                                 </div>
-                                <div class="mt-20 px-30">
-                                    <p class="fs-13 color-light mb-10">Assigned To</p>
-                                    <ul class="d-flex flex-wrap user-group-people__parent">
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm3.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm4.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm5.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm6.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                    </ul>
-                                </div>
+
                             </div>
                         </div>
                         <div class="col-xl-4 mb-25 col-md-6">
@@ -3215,43 +2220,7 @@
                                         <p class="color-light fs-12 mb-20">12 / 15 tasks completed</p>
                                     </div>
                                 </div>
-                                <div class="mt-20 px-30">
-                                    <p class="fs-13 color-light mb-10">Assigned To</p>
-                                    <ul class="d-flex flex-wrap user-group-people__parent">
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm3.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm4.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm5.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm6.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                    </ul>
-                                </div>
+
                             </div>
                         </div>
                         <div class="col-xl-4 mb-25 col-md-6">
@@ -3313,43 +2282,7 @@
                                         <p class="color-light fs-12 mb-20">12 / 15 tasks completed</p>
                                     </div>
                                 </div>
-                                <div class="mt-20 px-30">
-                                    <p class="fs-13 color-light mb-10">Assigned To</p>
-                                    <ul class="d-flex flex-wrap user-group-people__parent">
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm3.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm4.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm5.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm6.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm1.png" alt="author"></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><img class="rounded-circle wh-34 bg-opacity-secondary"
-                                                    src="img/tm2.png" alt="author"></a>
-                                        </li>
-                                    </ul>
-                                </div>
+
                             </div>
                         </div>
                     </div>

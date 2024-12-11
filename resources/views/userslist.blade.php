@@ -50,8 +50,13 @@
                                                             id="category-member">
                                                             <option value="JAN">1</option>
                                                             <option value="FBR">2</option>
+                                                            <option value="MAR">3</option>
                                                         </select>
                                                     </div>
+                                                </div>
+                                                <div class="form-group mb-20">
+                                                    <label for="">Attach File</label>
+                                                    <input type="file" placeholder="File here">
                                                 </div>
                                                 <div class="form-group mb-20">
                                                     <textarea class="form-control"

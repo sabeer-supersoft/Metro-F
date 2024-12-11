@@ -20,7 +20,7 @@
                             </div>
                             <div class="card-body">
                                 <div class="edit-profile__body">
-                                    <form action="{{ url('/login') }}" method="POST">
+                                    <form action="{{ url('/') }}" method="POST">
                                         @csrf
                                         <div class="form-group mb-25">
                                             <label for="username">Username or Email Address</label>
@@ -38,7 +38,7 @@
                                             </div>
                                         </div>
                                         <div class="admin-condition">
-                                            <div class="checkbox-theme-default custom-checkbox ">
+                                            <div class="checkbox-theme-default custom-checkbox">
                                                 <input class="checkbox" type="checkbox" id="check-1" name="remember">
                                                 <label for="check-1">
                                                     <span class="checkbox-text">Keep me logged in</span>
@@ -46,16 +46,26 @@
                                             </div>
                                             <a href="forget-password.html">Forget password?</a>
                                         </div>
-                                        <div
-                                            class="admin__button-group button-group d-flex pt-1 justify-content-md-start justify-content-center">
+                                        <div class="admin__button-group button-group d-flex pt-1 justify-content-md-start justify-content-center">
                                             <button
-                                                class="btn btn-primary btn-default w-100 btn-squared text-capitalize lh-normal px-50 signIn-createBtn ">
+                                                class="btn btn-primary btn-default w-100 btn-squared text-capitalize lh-normal px-50 signIn-createBtn">
                                                 Sign In
                                             </button>
                                         </div>
                                     </form>
                                 </div>
                             </div>
+
+                            <!-- Error Handling -->
+                            @if($errors->any())
+                                <div class="alert alert-danger">
+                                    <ul>
+                                        @foreach ($errors->all() as $error)
+                                            <li>{{ $error }}</li>
+                                        @endforeach
+                                    </ul>
+                                </div>
+                            @endif
 
                             <div class="admin-topbar">
                                 <p class="mb-0">
