@@ -12,7 +12,7 @@
             <div class="navbar-left">
                 <div class="logo-area">
                     <a class="navbar-brand" href="{{url('/')}}">
-                        <img class="dark" src="img/logo-dark.jpg" alt="logo">
+                        <img class="dark" src="img/logo-dark.png" alt="logo">
                         <img class="light" src="img/logo-white.png" alt="logo">
                     </a>
                     <a href="#" class="sidebar-toggle">
